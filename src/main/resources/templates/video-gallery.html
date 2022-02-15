@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!-- https://www.youtube.com/watch?v=wnseY8goQoc -->
+    <title> VideoBox</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<style type="text/css">
+
+
+</style>
+<header th:insert="blocks/header :: header"></header>
+<body>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="video-col" id="videoPlayer">
+            <video width="700px" height="300px" controls autoplay id="myVideo">
+                <source src="video1.mp4" type="video/mp4">
+            </video>
+            <img src="close.png" class="close-btn"
+                 onclick="stopVideo()">
+        </div>
+        <div class="col">
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic55.jpg"
+                         onclick="playVideo('video5.mp4')">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video5.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #8</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic22.jpg">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video6.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #4</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic11.jpg">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video7.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #2</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic44.jpg">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video4.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #1</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic55.jpg"
+                         onclick="playVideo('video5.mp4')">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video5.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #8</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic22.jpg">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video6.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #4</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic11.jpg">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video7.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #2</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic44.jpg">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video4.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #1</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic55.jpg"
+                         onclick="playVideo('video5.mp4')">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video5.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #8</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic22.jpg">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video6.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #4</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic11.jpg">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video7.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #2</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic44.jpg">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video4.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #1</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic55.jpg"
+                         onclick="playVideo('video5.mp4')">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video5.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #8</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic22.jpg">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video6.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #4</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic11.jpg">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video7.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #2</p>
+            </div>
+            <div class="small-img-row">
+                <div class="small-img">
+                    <img src="pic44.jpg">
+                    <img src="play.png" class="play-btn"
+                         onclick="playVideo('video4.mp4')">
+                </div>
+                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #1</p>
+            </div>
+<!--            <div class="small-img-row">-->
+<!--                <div class="small-img">-->
+<!--                    <p th:text="${el.comment}"/>-->
+<!--                </div>-->
+<!--                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #1</p>-->
+<!--            </div>-->
+<!--            <div class="small-img-row">-->
+<!--                <div class="small-img">-->
+<!--                    <form action="#" id="myform" enctype="multipart/form-data">-->
+<!--                        <label for="capture" class="label">-->
+<!--                            <h2>+</h2>-->
+<!--                        </label>-->
+<!--                        <input-->
+<!--                                type="file"-->
+<!--                                id="capture"-->
+<!--                                accept="image/*,video/*,audio/*"-->
+<!--                                capture 3-->
+<!--                                multiple>-->
+<!--                        <p>-->
+<!--                            <video src="input.files[0]" id="video" onclick="playVideo('')" controls></video>-->
+<!--                        </p>-->
+<!--                        <br/>-->
+<!--                    </form>-->
+<!--                </div>-->
+<!--                <p>NIGHT DRIVE PHONK MIX <br> (LXST CXNTURY TYPE) #1</p>-->
+<!--            </div>-->
+            <!-- <div class="small-img-row">
+                <div class="small-img">
+                    <img src="add-btn.png"
+                    onclick="playVideo('video4.mp4')">
+                </div>
+                <p>How to add multiple videos in a website or<br> to make a video gallery</p>
+            </div> -->
+<!--            <form enctype="multipart/form-data"  method="post" th:object="${post}">-->
+<!--            <table>-->
+<!--                <tr th:each="video : ${videos}">-->
+<!--                    <td>-->
+<!--                        <img width="200" height="162" th:src="@{'showVideo/' + ${video.id}}" >-->
+<!--                        <span th:text="${video.comment}" > Comment </span>-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--            </table>-->
+<!--            </form>-->
+        </div>
+    </div>
+</div>
+<!--<div class="video-player" id="videoPlayer">-->
+<!--    <video width="100%" controls autoplay id="myVideo">-->
+<!--        <source src="video1.mp4" type="video/mp4">-->
+<!--    </video>-->
+<!--    <img src="close.png" class="close-btn"-->
+<!--         onclick="stopVideo()">-->
+<!--</div>-->
+<script>
+        //play video (btn play/stop)
+        var videoPlayer = document.getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+        function stopVideo() {
+            videoPlayer.style.display = "none";
+        }
+        function playVideo(file) {
+            myVideo.src = file;
+            videoPlayer.style.display = "block";
+        }
+        //add video
+        document.addEventListener('DOMContentLoaded', (ev)=>{
+            let form = document.getElementById('myform');
+            //get the captured media file
+            let input = document.getElementById('capture');
+            input.addEventListener('change', (ev)=>{
+                console.dir( input.files[0] );
+                if(input.files[0].type.indexOf("image/") > -1){
+                    let img = document.getElementById('img');
+                    img.src = window.URL.createObjectURL(input.files[0]);
+                }
+                else if(input.files[0].type.indexOf("audio/") > -1 ){
+                    let audio = document.getElementById('audio');
+                    audio.src = window.URL.createObjectURL(input.files[0]);
+                }
+                else if(input.files[0].type.indexOf("video/") > -1 ){
+                    let video = document.getElementById('video');
+                    video.src=window.URL.createObjectURL(input.files[0]);
+                }
+
+
+            })
+
+        })
+
+</script>
+
+</body>
+</html>
